@@ -11,7 +11,7 @@ window.SITE_CONFIG = {
 
   // Contact page. Set a HubSpot form id (portal 20693956) and/or an email address.
   HUBSPOT_PORTAL_ID: '20693956',
-  HUBSPOT_FORM_ID: '',
+  HUBSPOT_FORM_ID: '9f5020df-cf22-4018-bac9-4a89f544e208',
   CONTACT_EMAIL: '',
 
   // Affiliate links per service (full tracking URL from Impact, CJ, FlexOffers, Partnerize, etc.).
