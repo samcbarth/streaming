@@ -1,17 +1,13 @@
 (function () {
   var C = window.SITE_CONFIG || {};
 
-  // Theme toggle (light / dark), remembered per browser.
-  var root = document.documentElement;
-  try { var saved = localStorage.getItem('theme'); if (saved) root.setAttribute('data-theme', saved); } catch (e) {}
-  var tbtn = document.getElementById('theme-toggle');
-  if (tbtn) tbtn.addEventListener('click', function () {
-    var cur = root.getAttribute('data-theme') ||
-      (window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-    var next = cur === 'dark' ? 'light' : 'dark';
-    root.setAttribute('data-theme', next);
-    try { localStorage.setItem('theme', next); } catch (e) {}
-  });
+  // Sticky header: darken + blur once the page scrolls.
+  var head = document.querySelector('.site-head');
+  if (head) {
+    var onScroll = function () { head.classList.toggle('scrolled', window.scrollY > 8); };
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+  }
 
   // Service buttons: swap to the affiliate URL when one is configured.
   var aff = C.AFFILIATE || {};
@@ -41,7 +37,24 @@
       var s = document.createElement('script');
       s.src = 'https://js.hsforms.net/forms/embed/v2.js';
       s.onload = function () {
-        if (window.hbspt) window.hbspt.forms.create({ portalId: C.HUBSPOT_PORTAL_ID, formId: C.HUBSPOT_FORM_ID, target: '#contact-box' });
+        if (window.hbspt) window.hbspt.forms.create({
+          portalId: C.HUBSPOT_PORTAL_ID, formId: C.HUBSPOT_FORM_ID, target: '#contact-box',
+          onFormReady: function () {
+            // The form renders in a same-origin iframe; give it the dark brand styles (AA contrast).
+            var f = box.querySelector('iframe');
+            var d = f && f.contentDocument;
+            if (!d) return;
+            var st = d.createElement('style');
+            st.textContent = 'body,.hs-form{font-family:Inter,"Helvetica Neue",Helvetica,Arial,sans-serif;color:#fff}' +
+              'label,.hs-form-field>label,legend,.hs-field-desc{color:#fff !important}' +
+              '.hs-field-desc{color:rgba(255,255,255,.72) !important}' +
+              'input:not([type=submit]):not([type=checkbox]):not([type=radio]),textarea,select{background:#191919 !important;color:#fff !important;border:1px solid rgba(255,255,255,.28) !important;border-radius:4px !important}' +
+              'input[type=submit],.hs-button{background:#9a00ff !important;border:0 !important;color:#fff !important;border-radius:50px !important;min-height:52px;padding:0 28px !important;font:700 14px Inter,Arial,sans-serif !important;text-transform:uppercase;letter-spacing:.06em;cursor:pointer}' +
+              '.hs-error-msg,.hs-error-msgs label{color:#ff8a8a !important}' +
+              '.legal-consent-container,.hs-richtext,.legal-consent-container p{color:rgba(255,255,255,.72) !important}a{color:#8e7cc3 !important}';
+            d.head.appendChild(st);
+          }
+        });
       };
       document.body.appendChild(s);
     } else if (C.CONTACT_EMAIL) {

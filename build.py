@@ -101,9 +101,13 @@ def ensure_images():
         path = out / f"{name}.webp"
         if path.exists():
             return
-        im = Image.new("RGB", (1200, 630), color)
+        im = Image.new("RGB", (1200, 630), (0, 0, 0))
         d = ImageDraw.Draw(im)
-        d.rectangle([0, 560, 1200, 630], fill=(15, 17, 21))
+        for x in range(1200):
+            t = x / 1199
+            d.line([(x, 0), (x, 559)], fill=(int(154 * t * color), 0, int(255 * t * color)))
+        d.rectangle([0, 560, 1200, 630], fill=(25, 25, 25))
+        d.rectangle([0, 558, 1200, 560], fill=(154, 0, 255))
         d.text((60, 70), kicker.upper(), font=font(30), fill=(255, 255, 255))
         words, lines, cur = title.split(), [], ""
         f = font(70)
@@ -122,18 +126,18 @@ def ensure_images():
         d.text((60, 578), "streaming.samcbarth.com", font=font(28, False), fill=(220, 220, 230))
         im.save(path, "WEBP", quality=80)
 
-    card("og-default", "Streaming prices, plans and picks", SITE, (76, 52, 220))
+    card("og-default", "Streaming prices, plans and picks", SITE, 1.0)
     for s in SERVICES:
-        card(f"svc-{s['slug']}", f"{s['name']} review: plans and prices", f"Checked {CHECKED_H}", (76, 52, 220))
+        card(f"svc-{s['slug']}", f"{s['name']} review: plans and prices", f"Checked {CHECKED_H}", 1.0)
     for p in PAIRS:
-        card(f"cmp-{pair_slug(p)}", f"{SVC[p['a']]['name']} vs {SVC[p['b']]['name']}", "Comparison", (40, 90, 200))
+        card(f"cmp-{pair_slug(p)}", f"{SVC[p['a']]['name']} vs {SVC[p['b']]['name']}", "Comparison", 0.85)
     for b in BEST:
-        card(f"best-{b['slug']}", b["title"], SITE, (20, 120, 110))
+        card(f"best-{b['slug']}", b["title"], SITE, 0.9)
     for d in DEVICES:
-        card(f"dev-{d['slug']}", f"{d['name']} guide", "Streaming devices", (120, 60, 160))
+        card(f"dev-{d['slug']}", f"{d['name']} guide", "Streaming devices", 0.8)
     for s in STORIES:
-        card(f"news-{s['slug']}", s["title"], f"{NEWS_BRAND} | {human_date(s['date_published'])}", (170, 50, 70))
-    card("calc", "Cord-cutting cost calculator", SITE, (20, 120, 110))
+        card(f"news-{s['slug']}", s["title"], f"{NEWS_BRAND} | {human_date(s['date_published'])}", 0.95)
+    card("calc", "Cord-cutting cost calculator", SITE, 0.9)
 
 
 def img(name):
@@ -196,26 +200,28 @@ def page(path, title, desc, body, crumbs, *, image=None, ld_extra=(), published=
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="color-scheme" content="light dark">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#000000">
 <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
 <link rel="alternate" type="application/rss+xml" title="{NEWS_BRAND} RSS" href="/rss.xml">
 <link rel="alternate" type="application/feed+json" title="{NEWS_BRAND} JSON Feed" href="/news/feed.json">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Barlow:wght@900&family=Inter:wght@400;500;700&display=swap">
 <link rel="stylesheet" href="/assets/style.css">
-<script>try{{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t)}}catch(e){{}}</script>
 {"".join(ld(o) for o in lds)}
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-head"><div class="wrap head-row">
-<a class="brand" href="/">Streaming <span>Price Check</span></a>
+<a class="brand" href="/"><span class="dot" aria-hidden="true"></span>Streaming Price Check</a>
 <nav class="nav" aria-label="Main">{nav}</nav>
-<button id="theme-toggle" type="button" aria-label="Toggle dark mode">Theme</button>
-</div></header>
+</div><div class="sb-band" aria-hidden="true"></div></header>
 <main id="main"><div class="wrap">
 {crumbs_html(crumbs)}
 {body}
 </div></main>
-<footer class="site-foot"><div class="wrap">
+<footer class="site-foot"><div class="sb-band" aria-hidden="true"></div><div class="wrap">
 <div class="foot-links">
 <a href="/about/">About</a><a href="/how-we-research/">How we research</a><a href="/contact/">Contact</a>
 <a href="/affiliate-disclosure/">Affiliate disclosure</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a>
@@ -644,7 +650,7 @@ def build_static():
 <h2>What data is collected?</h2><p>Standard analytics data such as pages viewed, approximate location, device and browser type, collected through Google Tag Manager and Google Analytics. If you use the contact form, we receive the details you submit.</p>
 <h2>Cookies and Google ads</h2><p>Third-party vendors, including Google, may use cookies to serve ads based on your prior visits to this and other websites. Google's use of advertising cookies enables it and its partners to serve ads based on your visits. You can opt out of personalized advertising at <a href="https://adssettings.google.com/" target="_blank" rel="noopener">Google Ads Settings</a> or <a href="https://www.aboutads.info/" target="_blank" rel="noopener">aboutads.info</a>.</p>
 <h2>Affiliate links</h2><p>When you click an affiliate link, the destination site or affiliate network (such as Amazon, Impact or CJ) may set a cookie to credit the referral. Their privacy policies apply on their sites.</p>
-<h2>Local storage</h2><p>Your light or dark theme choice is saved in your browser's local storage. It never leaves your device.</p>
+
 <h2>Your choices</h2><p>You can block or delete cookies in your browser settings. The site works without them.</p>
 <h2>Contact</h2><p>Questions about privacy: use the <a href="/contact/">contact page</a>.</p>""", "Privacy")
     S("/terms/", "Terms of use", "Terms of use for Streaming Price Check.",
@@ -667,14 +673,14 @@ def build_meta_files():
     (ROOT / "CNAME").write_text("streaming.samcbarth.com\n", encoding="utf-8")
     (ROOT / ".nojekyll").write_text("", encoding="utf-8")
     fav = ROOT / "assets" / "img" / "favicon.svg"
-    fav.write_text('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#5b3df5"/><path d="M24 18l24 14-24 14z" fill="#fff"/></svg>\n', encoding="utf-8")
+    fav.write_text('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#000"/><circle cx="32" cy="32" r="22" fill="#9a00ff"/><path d="M24 18l24 14-24 14z" fill="#fff"/></svg>\n', encoding="utf-8")
     ico = ROOT / "favicon.ico"
     if not ico.exists():
         try:
             from PIL import Image, ImageDraw
             im = Image.new("RGBA", (64, 64), (0, 0, 0, 0))
             d = ImageDraw.Draw(im)
-            d.rounded_rectangle([0, 0, 63, 63], radius=14, fill=(91, 61, 245))
+            d.rounded_rectangle([0, 0, 63, 63], radius=14, fill=(0, 0, 0)); d.ellipse([10, 10, 54, 54], fill=(154, 0, 255))
             d.polygon([(24, 18), (48, 32), (24, 46)], fill=(255, 255, 255))
             im.save(ico, sizes=[(16, 16), (32, 32), (48, 48)])
         except ImportError:
