@@ -59,7 +59,7 @@ for f in pages:
         errors.append(f"{rel}: em dash")
     if EMOJI.search(text):
         errors.append(f"{rel}: emoji")
-    if "GTM-KMS4X55L" not in text.split("<meta", 1)[0]:
+    if "G-QX8J421S0J" not in text.split("<meta", 1)[0]:
         errors.append(f"{rel}: GTM snippet not right after <head>")
     p = P()
     p.feed(text)

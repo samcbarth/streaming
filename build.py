@@ -24,11 +24,12 @@ NEWS_BRAND = "The Stream Desk"
 AUTHOR = {"@type": "Person", "name": "Sam Barth", "url": "https://samcbarth.com"}
 LAUNCH = "2026-11-09"
 
-GTM = '''<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-KMS4X55L"></script>
+GTM = '''<script async src="https://www.googletagmanager.com/gtag/js?id=G-QX8J421S0J"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+  gtag('config', 'G-QX8J421S0J');
 </script>'''
 
 NETWORK = [
