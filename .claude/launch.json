@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "streaming",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "8824", "--directory", "C:\\SamSites\\streaming"],
+      "port": 8824
+    }
+  ]
+}

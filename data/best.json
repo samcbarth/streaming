@@ -1,0 +1,60 @@
+{
+  "pages": [
+    {
+      "slug": "sports",
+      "title": "Best streaming service for sports",
+      "question": "What is the best streaming service for sports?",
+      "answer": "For the most sports in one place, YouTube TV ($82.99) or Fubo (Pro $88.99) are the strongest picks because they carry local networks plus ESPN. On a budget, pair Sling Orange ($45.99) with Peacock ($12.99) or Paramount+ ($8.99) for specific leagues.",
+      "picks": [
+        {"slug": "youtube-tv", "why": "Local ABC, CBS, FOX and NBC plus ESPN in one plan, unlimited DVR, and the only live service with NFL Sunday Ticket as an add-on."},
+        {"slug": "fubo", "why": "Sports-first lineup, with regional sports networks in some markets."},
+        {"slug": "sling-tv", "why": "The cheapest way to get ESPN channels in a live package (Orange, $45.99)."},
+        {"slug": "peacock", "why": "Sunday Night Football and NBA games on the $12.99 Premium plan."},
+        {"slug": "paramount-plus", "why": "NFL on CBS and UEFA Champions League from $8.99."},
+        {"slug": "prime-video", "why": "Thursday Night Football and NBA games, included with Amazon Prime."}
+      ],
+      "notes": "Sports rights move often. Check each league's official broadcast schedule before you subscribe for a specific team."
+    },
+    {
+      "slug": "kids",
+      "title": "Best streaming service for kids",
+      "question": "What is the best streaming service for kids and families?",
+      "answer": "Disney+ is the best fit for most families because of its Disney, Pixar and Marvel library. The Disney+, Hulu bundle at $12.99 a month with ads adds shows for adults for 50 cents more than Disney+ alone.",
+      "picks": [
+        {"slug": "disney-plus", "why": "The largest family catalog among the major services."},
+        {"slug": "netflix", "why": "Kids profiles with maturity controls and many animated originals."},
+        {"slug": "paramount-plus", "why": "Nickelodeon shows from $8.99."},
+        {"slug": "peacock", "why": "DreamWorks and Universal family films on Premium."}
+      ],
+      "notes": "Every service listed offers profile-level parental controls. Set them up on each device your kids use."
+    },
+    {
+      "slug": "cheapest",
+      "title": "Cheapest streaming services",
+      "question": "What is the cheapest streaming service?",
+      "answer": "The cheapest major paid plans are Netflix Standard with ads, Peacock Select, Paramount+ Essential and Prime Video standalone, all at $8.99 a month. The cheapest ad-free plan among the big services is Paramount+ Premium at $13.99.",
+      "picks": [
+        {"slug": "paramount-plus", "why": "$8.99 with ads, $13.99 mostly ad-free: the lowest ad-free price in our list."},
+        {"slug": "netflix", "why": "$8.99 with ads for the largest original library."},
+        {"slug": "peacock", "why": "$8.99 Select for NBC and Bravo shows only."},
+        {"slug": "prime-video", "why": "Included if you already have Prime; $8.99 standalone."},
+        {"slug": "hbo-max", "why": "$10.99 with ads, with annual billing to cut the cost further."}
+      ],
+      "notes": "Rotating services (subscribe for a month, cancel, switch) usually saves more than any single cheap plan."
+    },
+    {
+      "slug": "live-tv",
+      "title": "Best live TV streaming service",
+      "question": "What is the best live TV streaming service to replace cable?",
+      "answer": "YouTube TV is the best all-around cable replacement at $82.99 a month: local networks in most markets, ESPN, 100+ channels and unlimited DVR. Sling TV ($45.99) and Philo ($25) are cheaper but leave out local channels.",
+      "picks": [
+        {"slug": "youtube-tv", "why": "Most complete lineup with unlimited DVR."},
+        {"slug": "hulu", "why": "Hulu + Live TV ($99.99) includes Hulu, Disney+ and ESPN Select."},
+        {"slug": "fubo", "why": "Best for sports-heavy households."},
+        {"slug": "sling-tv", "why": "Budget lineup with ESPN or a wide cable mix."},
+        {"slug": "philo", "why": "Lowest price for entertainment channels only."}
+      ],
+      "notes": "Enter your ZIP code on each service's site before signing up. Local channels differ by market."
+    }
+  ]
+}

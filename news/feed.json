@@ -1,0 +1,120 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "The Stream Desk (Streaming Price Check)",
+  "home_page_url": "https://streaming.samcbarth.com/news/",
+  "feed_url": "https://streaming.samcbarth.com/news/feed.json",
+  "description": "Streaming price changes, new services and sports rights.",
+  "language": "en-US",
+  "icon": "https://streaming.samcbarth.com/assets/img/og-default.webp",
+  "authors": [
+    {
+      "name": "Sam Barth",
+      "url": "https://samcbarth.com"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://streaming.samcbarth.com/news/walmart-onn-google-tv-price-hike-november-2026/",
+      "url": "https://streaming.samcbarth.com/news/walmart-onn-google-tv-price-hike-november-2026/",
+      "title": "Walmart raises prices on its onn Google TV streamers by $10",
+      "summary": "Walmart's onn Google TV lineup now costs $10 more per device, with the 4K Pro at $69.98 and the Full HD stick at $39.98.",
+      "content_text": "Walmart has raised the price of every device in its onn Google TV streaming lineup by $10, according to a 9to5Google report published November 9, 2026. The onn 4K Pro moved from $59.98 to $69.98, the 4K Plus from $49.98 to $59.98, the 4K Streaming Stick from $39.98 to $49.98, and the Full HD Streaming Stick from $29.98 to $39.98.\n\nThe report links the increase to rising memory chip costs across consumer electronics. It is not the first increase for the line this year.\n\nWhy it matters: onn devices were the cheapest way to get Google TV software. The gap between them and name-brand sticks is now smaller, so it is worth comparing against Roku and Fire TV sale prices before buying.",
+      "image": "https://streaming.samcbarth.com/assets/img/news-walmart-onn-google-tv-price-hike-november-2026.webp",
+      "date_published": "2026-11-09T12:00:00-06:00",
+      "tags": [
+        "devices",
+        "prices",
+        "google-tv"
+      ],
+      "external_url": "https://9to5google.com/2026/11/09/walmart-google-tv-streamer-lineup-price-hike/"
+    },
+    {
+      "id": "https://streaming.samcbarth.com/news/nba-teams-dazn-local-streaming-2026/",
+      "url": "https://streaming.samcbarth.com/news/nba-teams-dazn-local-streaming-2026/",
+      "title": "Five NBA teams moved local games to DAZN this season",
+      "summary": "Five NBA teams signed exclusive local streaming deals with DAZN before the 2026-27 season, keeping only some games on over-the-air TV.",
+      "content_text": "Five NBA teams signed exclusive contracts with the streaming service DAZN before the 2026-27 season, Awful Announcing reported on October 28, 2026. Their local broadcasts now stream on DAZN, apart from a select number of games simulcast on local over-the-air stations.\n\nThe analysis argues that moving local games behind a streaming paywall risks losing casual viewers, and that MLB should watch the results as it considers its own local rights plans.\n\nWhy it matters: if your team is one of them, a cable or live TV package may no longer carry most local games. Check your team's official broadcast page before you renew a live TV service for basketball.",
+      "image": "https://streaming.samcbarth.com/assets/img/news-nba-teams-dazn-local-streaming-2026.webp",
+      "date_published": "2026-10-28T12:00:00-06:00",
+      "tags": [
+        "sports",
+        "nba",
+        "regional-sports"
+      ],
+      "external_url": "https://awfulannouncing.com/nba/mlb-dazn-experiment-warning-streaming-regional-sports-networks.html"
+    },
+    {
+      "id": "https://streaming.samcbarth.com/news/netflix-2030-world-cup-spain-rights/",
+      "url": "https://streaming.samcbarth.com/news/netflix-2030-world-cup-spain-rights/",
+      "title": "Netflix wins Spanish rights to the 2030 men's World Cup",
+      "summary": "Netflix will stream all 104 matches of the 2030 World Cup in Spain. US rights for 2030 and 2034 have not been sold yet.",
+      "content_text": "Netflix has acquired the rights to the 2030 men's World Cup in Spain and will stream all 104 matches there, according to reporting by The Athletic carried by Yahoo Sports on October 13, 2026. One match per matchday will be free to watch in Spain, and a national free-to-air broadcaster gets a package that includes every Spain match, both semifinals and the final.\n\nThe deal is Netflix's first foothold in the men's World Cup. In the US, FIFA has not yet sold the 2030 and 2034 rights, and the report lists Fox, NBC, Disney, YouTube, Prime Video and Apple among the reported bidders. Netflix already holds US rights to the 2027 and 2031 Women's World Cups.\n\nWhy it matters for US viewers: nothing changes yet, but Netflix is now a serious bidder for major live sports, which could shape which services carry the biggest events later this decade.",
+      "image": "https://streaming.samcbarth.com/assets/img/news-netflix-2030-world-cup-spain-rights.webp",
+      "date_published": "2026-10-13T12:00:00-06:00",
+      "tags": [
+        "sports",
+        "netflix",
+        "soccer",
+        "rights"
+      ],
+      "external_url": "https://sports.yahoo.com/articles/netflix-acquires-spanish-rights-2030-143025419.html"
+    },
+    {
+      "id": "https://streaming.samcbarth.com/news/disney-plus-hulu-price-increase-september-2026/",
+      "url": "https://streaming.samcbarth.com/news/disney-plus-hulu-price-increase-september-2026/",
+      "title": "Disney+ and Hulu ad-free plans rise to $21.49 a month",
+      "summary": "Disney raised its standalone ad-free Disney+ and Hulu plans by $2.50 to $21.49 each; the ad-free Disney+, Hulu bundle went to $21.99.",
+      "content_text": "Disney raised prices across Disney+ and Hulu, CBS News reported on September 23, 2026. The standalone ad-free Disney+ Premium and Hulu Premium plans each rose by $2.50, or 13 percent, to $21.49 a month. The ad-free Disney+, Hulu Bundle Premium rose by $2, from $19.99 to $21.99.\n\nDisney's own help pages now list Disney+ with ads at $12.49 and the Disney+, Hulu bundle with ads at $12.99.\n\nWhy it matters: ad-free Disney+ alone now costs only 50 cents less than the ad-free bundle that adds Hulu. If you pay for either service ad-free, the bundle is the better deal.",
+      "image": "https://streaming.samcbarth.com/assets/img/news-disney-plus-hulu-price-increase-september-2026.webp",
+      "date_published": "2026-09-23T12:00:00-06:00",
+      "tags": [
+        "prices",
+        "disney-plus",
+        "hulu"
+      ],
+      "external_url": "https://www.cbsnews.com/news/disney-plus-hulu-price-increase/"
+    },
+    {
+      "id": "https://streaming.samcbarth.com/news/apple-tv-price-increase-august-2026/",
+      "url": "https://streaming.samcbarth.com/news/apple-tv-price-increase-august-2026/",
+      "title": "Apple TV streaming price rises to $14.99 a month",
+      "summary": "Apple raised its Apple TV subscription from $12.99 to $14.99 a month and the annual plan from $99 to $119, effective immediately.",
+      "content_text": "Apple raised the price of its Apple TV streaming service in the US on August 28, 2026, CNBC reported. The monthly plan went from $12.99 to $14.99 and the annual plan from $99 to $119. The report says Apple One prices also rose.\n\nApple's own Apple TV page now lists $14.99 a month, with a 7-day free trial or three months free with a qualifying new Apple device.\n\nWhy it matters: Apple TV is still ad-free with 4K included, but it now costs more than Paramount+ Premium. Annual billing remains the cheaper way to keep it all year.",
+      "image": "https://streaming.samcbarth.com/assets/img/news-apple-tv-price-increase-august-2026.webp",
+      "date_published": "2026-08-28T12:00:00-06:00",
+      "tags": [
+        "prices",
+        "apple-tv"
+      ],
+      "external_url": "https://www.cnbc.com/2026/08/28/apple-tv-one-price-hike-us.html"
+    },
+    {
+      "id": "https://streaming.samcbarth.com/news/peacock-price-increase-august-2026/",
+      "url": "https://streaming.samcbarth.com/news/peacock-price-increase-august-2026/",
+      "title": "Peacock raises prices on all three plans",
+      "summary": "Peacock Premium went to $12.99, Premium Plus to $19.99 and Select to $8.99, NBCUniversal's fourth Peacock price increase in four years.",
+      "content_text": "NBCUniversal raised prices on every Peacock plan, Variety reported on August 18, 2026. Peacock Premium, which includes ads, rose from $10.99 to $12.99 a month. Premium Plus rose $3, from $16.99 to $19.99. The Select tier, which covers NBC and Bravo shows but leaves out movies, live sports and originals, went from $7.99 to $8.99.\n\nPeacock's help center lists Premium Plus at $19.99 a month or $199.99 a year, and its price-increase page says the Apple TV and Peacock Premium Plus bundle rose from $19.99 to $22.99.\n\nWhy it matters: Premium at $12.99 is still one of the cheaper ways to get NFL and NBA games, but ad-free Peacock now costs as much as ad-free Netflix.",
+      "image": "https://streaming.samcbarth.com/assets/img/news-peacock-price-increase-august-2026.webp",
+      "date_published": "2026-08-18T12:00:00-06:00",
+      "tags": [
+        "prices",
+        "peacock"
+      ],
+      "external_url": "https://variety.com/2026/tv/news/peacock-raises-prices-fourth-time-in-four-years-1236837016/"
+    },
+    {
+      "id": "https://streaming.samcbarth.com/news/prime-video-ultra-ad-free-4-99/",
+      "url": "https://streaming.samcbarth.com/news/prime-video-ultra-ad-free-4-99/",
+      "title": "Prime Video's ad-free option becomes Ultra at $4.99 a month",
+      "summary": "Amazon renamed its Prime Video ad-free add-on to Prime Video Ultra and raised it from $2.99 to $4.99 a month in the US.",
+      "content_text": "Amazon raised the price of ad-free Prime Video in the US from $2.99 to $4.99 a month, CNBC reported on March 13, 2026. Amazon's own announcement says the add-on is now called Prime Video Ultra.\n\nPrime Video itself is still included with an Amazon Prime membership, which Amazon lists at $14.99 a month or $139 a year. Standalone Prime Video is $8.99 a month.\n\nWhy it matters: ad-free Prime Video now costs $19.98 a month counting the Prime membership, about the same as ad-free Netflix. Prime members who tolerate ads pay nothing extra.",
+      "image": "https://streaming.samcbarth.com/assets/img/news-prime-video-ultra-ad-free-4-99.webp",
+      "date_published": "2026-03-13T12:00:00-06:00",
+      "tags": [
+        "prices",
+        "prime-video"
+      ],
+      "external_url": "https://www.cnbc.com/2026/03/13/amazon-to-hike-price-of-ad-free-prime-video-tier-by-2-a-month.html"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+# Streaming Price Check
+
+> Independent, research-based guide to US streaming services and devices at https://streaming.samcbarth.com. Prices come from official provider pages and were last checked November 9, 2026. No invented ratings or hands-on claims.
+
+## Reviews
+- [Netflix review](https://streaming.samcbarth.com/reviews/netflix/): Netflix is the safest single pick if you want a large original library and no live TV. The ad plan costs $8.99 a month; ad-free starts at $19.99, and 4K needs the $26.99 Premium plan.
+- [Hulu review](https://streaming.samcbarth.com/reviews/hulu/): Hulu is best bought as part of the Disney+, Hulu bundle: $12.99 a month with ads, only 50 cents more than Hulu alone at $12.49. Ad-free Hulu by itself costs $21.49.
+- [Disney+ review](https://streaming.samcbarth.com/reviews/disney-plus/): Disney+ is the top family pick, but it is rarely worth buying alone: the Disney+, Hulu bundle with ads costs $12.99 a month, just 50 cents more than Disney+ by itself at $12.49.
+- [HBO Max review](https://streaming.samcbarth.com/reviews/hbo-max/): HBO Max starts at $10.99 a month with ads and $18.49 ad-free. It is the best pick for HBO originals and Warner Bros. movies; 4K needs Premium at $22.99.
+- [Peacock review](https://streaming.samcbarth.com/reviews/peacock/): Peacock Premium costs $12.99 a month with ads and includes NBC live sports; Premium Plus is $19.99 ad-free. The $8.99 Select plan skips sports, movies and originals.
+- [Paramount+ review](https://streaming.samcbarth.com/reviews/paramount-plus/): Paramount+ is the cheapest major service with a mostly ad-free plan: Premium is $13.99 a month and includes live local CBS. Essential with ads is $8.99.
+- [Prime Video review](https://streaming.samcbarth.com/reviews/prime-video/): If you already have Amazon Prime ($14.99 a month or $139 a year), Prime Video is included with ads. Removing ads costs $4.99 a month more. Video-only Prime Video is $8.99.
+- [Apple TV review](https://streaming.samcbarth.com/reviews/apple-tv/): Apple TV (the service formerly called Apple TV+) costs $14.99 a month or $119 a year, with no ads and 4K included. It is a small, originals-only catalog.
+- [YouTube TV review](https://streaming.samcbarth.com/reviews/youtube-tv/): YouTube TV's base plan is $82.99 a month for 100+ live channels, including local ABC, CBS, FOX and NBC in most markets, with unlimited DVR. Cheaper genre plans start at $64.99.
+- [Sling TV review](https://streaming.samcbarth.com/reviews/sling-tv/): Sling TV is the lowest-cost live TV service with big cable networks: Orange or Blue is $45.99 a month, both together $60.99, and smaller Select and Essentials plans are $19.99.
+- [Fubo review](https://streaming.samcbarth.com/reviews/fubo/): Fubo is the sports-focused live TV service. Pro costs $88.99 a month and Elite $98.99, with first-month discounts. A Spanish-language Latino plan is $19.99.
+- [Philo review](https://streaming.samcbarth.com/reviews/philo/): Philo is the cheapest live TV service for entertainment channels: $25 a month for 70+ channels. It has no sports networks and no local channels.
+
+## Guides
+- [Best streaming service for sports](https://streaming.samcbarth.com/best/sports/): For the most sports in one place, YouTube TV ($82.99) or Fubo (Pro $88.99) are the strongest picks because they carry local networks plus ESPN. On a budget, pair Sling Orange ($45.99) with Peacock ($12.99) or Paramount+ ($8.99) for specific leagues.
+- [Best streaming service for kids](https://streaming.samcbarth.com/best/kids/): Disney+ is the best fit for most families because of its Disney, Pixar and Marvel library. The Disney+, Hulu bundle at $12.99 a month with ads adds shows for adults for 50 cents more than Disney+ alone.
+- [Cheapest streaming services](https://streaming.samcbarth.com/best/cheapest/): The cheapest major paid plans are Netflix Standard with ads, Peacock Select, Paramount+ Essential and Prime Video standalone, all at $8.99 a month. The cheapest ad-free plan among the big services is Paramount+ Premium at $13.99.
+- [Best live TV streaming service](https://streaming.samcbarth.com/best/live-tv/): YouTube TV is the best all-around cable replacement at $82.99 a month: local networks in most markets, ESPN, 100+ channels and unlimited DVR. Sling TV ($45.99) and Philo ($25) are cheaper but leave out local channels.
+- [Netflix vs Hulu](https://streaming.samcbarth.com/compare/netflix-vs-hulu/)
+- [Netflix vs Disney+](https://streaming.samcbarth.com/compare/netflix-vs-disney-plus/)
+- [HBO Max vs Netflix](https://streaming.samcbarth.com/compare/hbo-max-vs-netflix/)
+- [Peacock vs Paramount+](https://streaming.samcbarth.com/compare/peacock-vs-paramount-plus/)
+- [Prime Video vs Netflix](https://streaming.samcbarth.com/compare/prime-video-vs-netflix/)
+- [Apple TV vs Netflix](https://streaming.samcbarth.com/compare/apple-tv-vs-netflix/)
+- [YouTube TV vs Hulu](https://streaming.samcbarth.com/compare/youtube-tv-vs-hulu/)
+- [YouTube TV vs Sling TV](https://streaming.samcbarth.com/compare/youtube-tv-vs-sling-tv/)
+- [YouTube TV vs Fubo](https://streaming.samcbarth.com/compare/youtube-tv-vs-fubo/)
+- [Sling TV vs Philo](https://streaming.samcbarth.com/compare/sling-tv-vs-philo/)
+- [Roku guide](https://streaming.samcbarth.com/devices/roku/)
+- [Amazon Fire TV guide](https://streaming.samcbarth.com/devices/fire-tv/)
+- [Apple TV 4K guide](https://streaming.samcbarth.com/devices/apple-tv-4k/)
+- [Google TV Streamer guide](https://streaming.samcbarth.com/devices/google-tv-streamer/)
+- [Cord-cutting cost calculator](https://streaming.samcbarth.com/calculator/)
+
+## News
+- [The Stream Desk](https://streaming.samcbarth.com/news/), JSON Feed: https://streaming.samcbarth.com/news/feed.json

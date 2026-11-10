@@ -1,0 +1,94 @@
+{
+  "pairs": [
+    {
+      "a": "netflix", "b": "hulu",
+      "answer": "Pick Netflix for a bigger original library and 4K; pick Hulu (ideally in the Disney+ bundle) for next-day TV episodes. With ads, Netflix is cheaper at $8.99 versus $12.49, but the $12.99 Disney+, Hulu bundle gives you two services.",
+      "points": [
+        "Price with ads: Netflix $8.99, Hulu $12.49.",
+        "Ad-free: Netflix Standard $19.99, Hulu Premium $21.49.",
+        "Hulu gets many network and FX episodes the day after they air; Netflix focuses on originals and licensed seasons.",
+        "Only Hulu offers a live TV package (Hulu + Live TV)."
+      ]
+    },
+    {
+      "a": "netflix", "b": "disney-plus",
+      "answer": "Netflix suits mixed adult households; Disney+ suits families with kids and franchise fans. Ad plans cost $8.99 (Netflix) and $12.49 (Disney+), and ad-free is $19.99 versus $21.49.",
+      "points": [
+        "Disney+ carries Disney, Pixar, Marvel, Star Wars and National Geographic.",
+        "Netflix has a broader mix of genres and international originals.",
+        "Disney+ is cheaper as part of the Disney+, Hulu bundle ($12.99 with ads)."
+      ]
+    },
+    {
+      "a": "hbo-max", "b": "netflix",
+      "answer": "HBO Max is the better value for prestige drama and Warner Bros. films, with a $10.99 ad plan and $18.49 ad-free. Netflix has a larger library overall and a cheaper ad plan at $8.99.",
+      "points": [
+        "Ad-free: HBO Max Standard $18.49 versus Netflix Standard $19.99.",
+        "4K: HBO Max Premium $22.99 versus Netflix Premium $26.99.",
+        "HBO Max offers annual billing; Netflix does not."
+      ]
+    },
+    {
+      "a": "peacock", "b": "paramount-plus",
+      "answer": "Both are low-cost sports-and-network services. Paramount+ is cheaper ad-free ($13.99 versus $19.99) and has Champions League soccer and NFL on CBS; Peacock Premium ($12.99) has NBC shows, Sunday Night Football and NBA games.",
+      "points": [
+        "Cheapest plan: Peacock Select $8.99 (no sports), Paramount+ Essential $8.99.",
+        "Live local station: Peacock Premium Plus includes NBC; Paramount+ Premium includes CBS.",
+        "Pick by network: NBC and Bravo fans choose Peacock, CBS fans choose Paramount+."
+      ]
+    },
+    {
+      "a": "prime-video", "b": "netflix",
+      "answer": "If you already pay for Amazon Prime, Prime Video costs nothing extra (with ads) and Netflix is the add-on to judge. Ad-free, Netflix Standard is $19.99 while Prime plus Ultra is $19.98 and includes shipping benefits.",
+      "points": [
+        "Prime Video standalone is $8.99, the same as Netflix with ads.",
+        "Prime Video has Thursday Night Football and NBA games; Netflix has occasional live events.",
+        "Netflix has the larger original library."
+      ]
+    },
+    {
+      "a": "apple-tv", "b": "netflix",
+      "answer": "Apple TV is a smaller, all-original, ad-free service at $14.99 with 4K included. Netflix costs less with ads ($8.99) but $26.99 for 4K. Many people rotate Apple TV in for a month when a show they want lands.",
+      "points": [
+        "Apple TV includes 4K on its only plan; Netflix reserves 4K for Premium.",
+        "Netflix has a far larger catalog.",
+        "Apple TV includes MLS matches starting in 2026."
+      ]
+    },
+    {
+      "a": "youtube-tv", "b": "hulu",
+      "answer": "For live TV, YouTube TV ($82.99) and Hulu + Live TV ($99.99 with Disney+ and ESPN Select) both carry local networks and ESPN. YouTube TV is cheaper and has unlimited DVR; Hulu + Live TV includes the Disney streaming bundle.",
+      "points": [
+        "YouTube TV sells cheaper genre plans from $64.99.",
+        "Hulu + Live TV includes Hulu, Disney+ and ESPN Select at no extra cost.",
+        "NFL Sunday Ticket is an add-on only for YouTube TV."
+      ]
+    },
+    {
+      "a": "youtube-tv", "b": "sling-tv",
+      "answer": "YouTube TV is the full cable replacement with local channels for $82.99. Sling TV is the budget option at $45.99 per base plan, but it has few local stations, so plan on an antenna.",
+      "points": [
+        "Sling Orange & Blue together: $60.99.",
+        "YouTube TV includes unlimited DVR.",
+        "Sling has $19.99 mini plans; YouTube TV's smallest plan is $64.99."
+      ]
+    },
+    {
+      "a": "youtube-tv", "b": "fubo",
+      "answer": "Both are full live TV services. YouTube TV is cheaper ($82.99 versus Fubo Pro at $88.99) and has unlimited DVR; Fubo is built for sports and carries regional sports networks in some markets.",
+      "points": [
+        "Fubo Elite: $98.99.",
+        "Fubo first-month discounts were shown on its welcome page.",
+        "Check your ZIP code on both sites: local and regional channels vary."
+      ]
+    },
+    {
+      "a": "sling-tv", "b": "philo",
+      "answer": "Philo ($25) is cheaper but has no sports or news networks. Sling ($45.99) costs more but includes ESPN (Orange) or a broader lineup (Blue). Choose Philo only if you never watch sports.",
+      "points": [
+        "Neither includes most local channels; both pair with an antenna.",
+        "Sling's $19.99 mini plans are an option if you need only a few channels."
+      ]
+    }
+  ]
+}

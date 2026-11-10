@@ -1,0 +1,68 @@
+{
+  "devices": [
+    {
+      "slug": "roku",
+      "name": "Roku",
+      "maker": "Roku, Inc.",
+      "official": "https://www.roku.com/products/players",
+      "official_label": "Roku players page",
+      "answer": "Roku is the simplest streaming platform: a plain grid of apps, support for almost every service, and players from a basic HD stick to the Ethernet-equipped Roku Ultra. It suits people who want a neutral device that does not push one company's services.",
+      "models": [
+        {"name": "Roku Streaming Stick", "specs": "HD streaming stick, powered from the TV's USB port, voice remote.", "q": "Roku Streaming Stick"},
+        {"name": "Roku Streaming Stick Plus", "specs": "4K HDR stick, voice remote with TV controls.", "q": "Roku Streaming Stick Plus"},
+        {"name": "Roku Streaming Stick 4K", "specs": "4K with Dolby Vision and HDR10+, long-range Wi-Fi receiver in the cable.", "q": "Roku Streaming Stick 4K"},
+        {"name": "Roku Ultra", "specs": "Fastest Roku player, Ethernet port, Wi-Fi 6, rechargeable backlit voice remote.", "q": "Roku Ultra"}
+      ],
+      "good": ["Simple home screen that you can keep focused on apps", "Works with nearly every streaming service", "Free live channels in The Roku Channel"],
+      "watch": ["The home screen shows ads and sponsored rows", "The cheapest sticks do not support 4K"],
+      "best_for": "Anyone who wants an easy, brand-neutral device, including less technical family members."
+    },
+    {
+      "slug": "fire-tv",
+      "name": "Amazon Fire TV",
+      "maker": "Amazon",
+      "official": "https://www.amazon.com/fire-tv",
+      "official_label": "Amazon Fire TV page",
+      "answer": "Fire TV devices are the natural pick for Amazon Prime and Alexa households. The Fire TV Stick 4K Max is the strongest stick in the range, and the Fire TV Cube adds hands-free Alexa and an Ethernet port.",
+      "models": [
+        {"name": "Fire TV Stick HD", "specs": "1080p stick with Alexa voice remote.", "q": "Fire TV Stick HD"},
+        {"name": "Fire TV Stick 4K", "specs": "4K with Dolby Vision, HDR10+ and Dolby Atmos.", "q": "Fire TV Stick 4K"},
+        {"name": "Fire TV Stick 4K Max", "specs": "Faster processor, Wi-Fi 6E, Ambient Experience art screens.", "q": "Fire TV Stick 4K Max"},
+        {"name": "Fire TV Cube", "specs": "Hands-free Alexa, Ethernet port, HDMI input for a cable box.", "q": "Fire TV Cube"}
+      ],
+      "good": ["Tight Prime Video and Alexa integration", "Frequent Amazon sale pricing", "Broad app support"],
+      "watch": ["The interface promotes Amazon content and ads heavily", "Less useful if you do not use Amazon services"],
+      "best_for": "Prime members and homes that already use Alexa speakers."
+    },
+    {
+      "slug": "apple-tv-4k",
+      "name": "Apple TV 4K",
+      "maker": "Apple",
+      "official": "https://www.apple.com/apple-tv-4k/",
+      "official_label": "Apple TV 4K page",
+      "answer": "Apple TV 4K is the premium streaming box: the fastest hardware of the major platforms, no ads on the home screen, and deep iPhone, AirPlay and HomeKit integration. It costs more than sticks, so it makes most sense in Apple households.",
+      "models": [
+        {"name": "Apple TV 4K (Wi-Fi)", "specs": "A15 Bionic chip, 4K Dolby Vision and HDR10+, Dolby Atmos, 64GB.", "q": "Apple TV 4K Wi-Fi"},
+        {"name": "Apple TV 4K (Wi-Fi + Ethernet)", "specs": "Adds Gigabit Ethernet, Thread smart home radio and 128GB.", "q": "Apple TV 4K Wi-Fi Ethernet"}
+      ],
+      "good": ["No ads on the home screen", "Fast, smooth interface", "AirPlay from iPhone, iPad and Mac, plus a home hub for HomeKit"],
+      "watch": ["Highest price of the four platforms", "Fewest benefits if you use Android phones"],
+      "best_for": "iPhone users and anyone who wants the cleanest, fastest experience."
+    },
+    {
+      "slug": "google-tv-streamer",
+      "name": "Google TV Streamer",
+      "maker": "Google",
+      "official": "https://store.google.com/product/google_tv_streamer",
+      "official_label": "Google Store product page",
+      "answer": "The Google TV Streamer replaced the Chromecast line. It runs Google TV, which pulls shows from all your services into one set of recommendations, and it doubles as a Matter and Thread smart home hub. Walmart's cheaper onn devices run the same Google TV software.",
+      "models": [
+        {"name": "Google TV Streamer", "specs": "4K HDR with Dolby Vision, Ethernet port, Matter and Thread hub, remote finder button.", "q": "Google TV Streamer"},
+        {"name": "Walmart onn 4K Pro (Google TV)", "specs": "Budget Google TV box with hands-free voice, sold by Walmart. Walmart raised its price to $69.98 in November 2026.", "q": ""}
+      ],
+      "good": ["Recommendations that span services", "Built-in Chromecast casting from phones and Chrome", "Smart home hub features"],
+      "watch": ["The home screen is busy with recommendations", "Chromecast-branded models are no longer sold new by Google"],
+      "best_for": "Android and Google Home users who like content suggestions across services."
+    }
+  ]
+}

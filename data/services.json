@@ -1,0 +1,368 @@
+{
+  "checked": "2026-11-09",
+  "services": [
+    {
+      "slug": "netflix",
+      "name": "Netflix",
+      "company": "Netflix, Inc.",
+      "kind": "on-demand",
+      "official": "https://www.netflix.com/",
+      "pricing_url": "https://help.netflix.com/en/node/24926",
+      "pricing_source": "Netflix Help Center: Plans and Pricing",
+      "plans": [
+        {"name": "Standard with ads", "monthly": 8.99, "note": "2 streams, up to 1080p, ads"},
+        {"name": "Standard", "monthly": 19.99, "note": "2 streams, up to 1080p, no ads"},
+        {"name": "Premium", "monthly": 26.99, "note": "4 streams, 4K and HDR where available, no ads"}
+      ],
+      "extras": "Extra member slots: $7.99/month with ads or $9.99/month without ads (1 on Standard, up to 2 on Premium).",
+      "cheapest": 8.99,
+      "adfree": 19.99,
+      "four_k": "Premium plan only",
+      "live_sports": "Selected live events. Netflix has streamed NFL Christmas Day games and carries WWE Raw weekly.",
+      "kids": "Kids profiles with maturity-rating controls and a large library of animated originals.",
+      "locals": "No local channels.",
+      "trial": "No free trial.",
+      "best_for": ["A deep library of originals in every genre", "Households that want one service and do not need live TV"],
+      "not_for": ["Live local channels or regular-season sports", "The lowest possible ad-free price"],
+      "answer": "Netflix is the safest single pick if you want a large original library and no live TV. The ad plan costs $8.99 a month; ad-free starts at $19.99, and 4K needs the $26.99 Premium plan.",
+      "detail": [
+        "Netflix has three US plans. The ad-supported plan is the cheapest way in, and it streams in up to 1080p on two screens at once. Standard removes ads at the same quality. Premium is the only plan with 4K, HDR and four simultaneous streams.",
+        "Netflix does not offer live channels, so it pairs well with a live TV service or an antenna. Its live programming is limited to specific events and WWE Raw.",
+        "If you share an account with someone outside your household, Netflix charges for an extra member slot instead of allowing free password sharing."
+      ]
+    },
+    {
+      "slug": "hulu",
+      "name": "Hulu",
+      "company": "The Walt Disney Company",
+      "kind": "on-demand",
+      "official": "https://www.hulu.com/",
+      "pricing_url": "https://help.hulu.com/article/hulu-how-much-does-hulu-cost",
+      "pricing_source": "Hulu Help Center: Hulu plans and prices",
+      "plans": [
+        {"name": "Hulu (with ads)", "monthly": 12.49, "note": "Also $124.99/year"},
+        {"name": "Hulu Premium (no ads)", "monthly": 21.49, "note": "Ad-free on most content"},
+        {"name": "Disney+, Hulu Bundle", "monthly": 12.99, "note": "Both services with ads"},
+        {"name": "Disney+, Hulu Bundle Premium", "monthly": 21.99, "note": "Both services without ads"},
+        {"name": "Hulu + Live TV, Disney+, ESPN Select", "monthly": 99.99, "note": "Live TV package with ads"},
+        {"name": "Live TV Only", "monthly": 98.99, "note": "Live channels without the on-demand bundle"}
+      ],
+      "extras": "Disney also sells a Disney+, Hulu, HBO Max bundle at $21.99/month with ads or $34.99/month without ads.",
+      "cheapest": 12.49,
+      "adfree": 21.49,
+      "four_k": "Limited 4K titles",
+      "live_sports": "Only through Hulu + Live TV, which includes ESPN channels and local networks where available.",
+      "kids": "Kids profiles; most family content sits in Disney+, which is why the bundle is popular.",
+      "locals": "Next-day episodes of many network shows on demand. Live locals only with Hulu + Live TV.",
+      "trial": "Varies by offer; check the sign-up page.",
+      "best_for": ["Next-day TV episodes and FX series", "People who also want Disney+ (the bundle costs 50 cents more than Hulu alone)"],
+      "not_for": ["Anyone who only wants one standalone ad-free service at a low price"],
+      "answer": "Hulu is best bought as part of the Disney+, Hulu bundle: $12.99 a month with ads, only 50 cents more than Hulu alone at $12.49. Ad-free Hulu by itself costs $21.49.",
+      "detail": [
+        "Hulu's own plans are $12.49 with ads and $21.49 without. Disney prices its bundles so that adding Disney+ costs very little, so most people should compare the bundle, not Hulu alone.",
+        "Hulu + Live TV is Disney's live TV package. It bundles live channels with Hulu, Disney+ and ESPN Select for $99.99 a month, and a live-only option lists at $98.99.",
+        "Hulu is strong on current TV: many network and FX series arrive the day after they air."
+      ]
+    },
+    {
+      "slug": "disney-plus",
+      "name": "Disney+",
+      "company": "The Walt Disney Company",
+      "kind": "on-demand",
+      "official": "https://www.disneyplus.com/",
+      "pricing_url": "https://help.disneyplus.com/article/disneyplus-price",
+      "pricing_source": "Disney+ Help Center: Disney+ plans and prices",
+      "plans": [
+        {"name": "Disney+ (with ads)", "monthly": 12.49, "note": "Ad-supported"},
+        {"name": "Disney+ Premium (no ads)", "monthly": 21.49, "note": "Also $214.99/year"},
+        {"name": "Disney+, Hulu Bundle", "monthly": 12.99, "note": "With ads"},
+        {"name": "Disney+, Hulu, ESPN Select Bundle", "monthly": 21.99, "note": "With ads"}
+      ],
+      "extras": "Bundles with HBO Max ($21.99 with ads, $34.99 without) and ESPN Unlimited ($35.99 with ads) are listed on Hulu's pricing page.",
+      "cheapest": 12.49,
+      "adfree": 21.49,
+      "four_k": "4K and HDR on the Premium plan",
+      "live_sports": "Some ESPN content appears inside Disney+ for bundle subscribers.",
+      "kids": "The strongest family catalog: Disney, Pixar, Marvel, Star Wars and National Geographic.",
+      "locals": "No local channels.",
+      "trial": "No standing free trial.",
+      "best_for": ["Families with young kids", "Marvel, Star Wars and Pixar fans"],
+      "not_for": ["Adults who mainly want prestige drama or live TV"],
+      "answer": "Disney+ is the top family pick, but it is rarely worth buying alone: the Disney+, Hulu bundle with ads costs $12.99 a month, just 50 cents more than Disney+ by itself at $12.49.",
+      "detail": [
+        "Disney+ raised prices in September 2026. The ad plan is $12.49 a month and Premium, which removes ads, is $21.49 or $214.99 a year.",
+        "The catalog centers on Disney animation, Pixar, Marvel, Star Wars and National Geographic. That makes it the most useful service for households with children.",
+        "Because Disney prices its bundles aggressively, compare the bundle prices before choosing a standalone plan."
+      ]
+    },
+    {
+      "slug": "hbo-max",
+      "name": "HBO Max",
+      "company": "Warner Bros. Discovery",
+      "kind": "on-demand",
+      "official": "https://www.hbomax.com/",
+      "pricing_url": "https://www.hbomax.com/",
+      "pricing_source": "HBO Max plan page",
+      "plans": [
+        {"name": "Basic with Ads", "monthly": 10.99, "note": "$109.99/year; 2 streams, Full HD"},
+        {"name": "Standard", "monthly": 18.49, "note": "$184.99/year; 2 streams, Full HD, no ads"},
+        {"name": "Premium", "monthly": 22.99, "note": "$229.99/year; 4 streams, 4K where available"}
+      ],
+      "extras": "A Disney+, Hulu, HBO Max bundle costs $21.99/month with ads or $34.99/month without ads.",
+      "cheapest": 10.99,
+      "adfree": 18.49,
+      "four_k": "Premium plan only",
+      "live_sports": "Live sports are included on select plans, according to the HBO Max plan page.",
+      "kids": "A family section with Cartoon Network and Warner animation, but smaller than Disney+.",
+      "locals": "No local channels.",
+      "trial": "No standing free trial.",
+      "best_for": ["HBO series and Warner Bros. films", "Viewers who want prestige drama at a mid-range price"],
+      "not_for": ["Families who need a large kids catalog", "4K on a budget"],
+      "answer": "HBO Max starts at $10.99 a month with ads and $18.49 ad-free. It is the best pick for HBO originals and Warner Bros. movies; 4K needs Premium at $22.99.",
+      "detail": [
+        "HBO Max sells three plans. Basic with Ads and Standard both stream in Full HD on two devices. Premium adds 4K and four streams.",
+        "Annual billing saves money on every plan: $109.99, $184.99 and $229.99 a year.",
+        "If you already pay for Disney+ and Hulu, the three-service bundle is usually cheaper than adding HBO Max separately."
+      ]
+    },
+    {
+      "slug": "peacock",
+      "name": "Peacock",
+      "company": "NBCUniversal",
+      "kind": "on-demand",
+      "official": "https://www.peacocktv.com/",
+      "pricing_url": "https://www.peacocktv.com/help/article/how-much-does-a-peacock-subscription-cost",
+      "pricing_source": "Peacock Help: How much does a Peacock subscription cost?",
+      "plans": [
+        {"name": "Select", "monthly": 8.99, "note": "NBC and Bravo shows; no movies, live sports or originals"},
+        {"name": "Premium", "monthly": 12.99, "note": "With ads; includes live sports"},
+        {"name": "Premium Plus", "monthly": 19.99, "note": "$199.99/year; no ads on most content"}
+      ],
+      "extras": "An Apple TV and Peacock Premium Plus bundle is $22.99/month, per Peacock's price-increase notice.",
+      "cheapest": 8.99,
+      "adfree": 19.99,
+      "four_k": "Select live events and titles",
+      "live_sports": "Premium and Premium Plus carry NBC Sports content, including Sunday Night Football simulcasts and NBA games.",
+      "kids": "DreamWorks and Universal family movies, plus kids profiles.",
+      "locals": "Premium Plus includes your live local NBC station in most markets.",
+      "trial": "No standing free trial.",
+      "best_for": ["NBC shows, Bravo and Sunday Night Football", "A low-cost sports add-on"],
+      "not_for": ["Viewers who want ad-free streaming cheaply"],
+      "answer": "Peacock Premium costs $12.99 a month with ads and includes NBC live sports; Premium Plus is $19.99 ad-free. The $8.99 Select plan skips sports, movies and originals.",
+      "detail": [
+        "Peacock raised prices on all three plans in August 2026, its fourth increase in four years.",
+        "Select is a stripped-down plan for current and past NBC and Bravo shows. Most people should start at Premium, which adds live sports, movies and Peacock originals.",
+        "Premium Plus removes most ads and adds downloads and a live feed of your local NBC station."
+      ]
+    },
+    {
+      "slug": "paramount-plus",
+      "name": "Paramount+",
+      "company": "Paramount Skydance",
+      "kind": "on-demand",
+      "official": "https://www.paramountplus.com/",
+      "pricing_url": "https://www.paramountplus.com/",
+      "pricing_source": "Paramount+ sign-up page",
+      "plans": [
+        {"name": "Essential", "monthly": 8.99, "note": "With ads"},
+        {"name": "Premium", "monthly": 13.99, "note": "Ad-free on most content; includes live local CBS"}
+      ],
+      "extras": "Annual pricing is offered at sign-up.",
+      "cheapest": 8.99,
+      "adfree": 13.99,
+      "four_k": "Premium plan, select titles",
+      "live_sports": "CBS Sports events, including NFL on CBS and UEFA Champions League soccer.",
+      "kids": "Nickelodeon and Paramount family films.",
+      "locals": "Premium includes your live local CBS station.",
+      "trial": "Offers vary; check the sign-up page.",
+      "best_for": ["NFL on CBS and Champions League soccer", "The cheapest mostly ad-free plan among the big services"],
+      "not_for": ["People who want a deep original film library"],
+      "answer": "Paramount+ is the cheapest major service with a mostly ad-free plan: Premium is $13.99 a month and includes live local CBS. Essential with ads is $8.99.",
+      "detail": [
+        "Paramount+ has two plans. Essential is $8.99 with ads. Premium is $13.99 and removes ads on most content.",
+        "Sports are the main draw: NFL on CBS and UEFA Champions League matches stream here.",
+        "Premium raised its price from $12.99 to $13.99 in 2026."
+      ]
+    },
+    {
+      "slug": "prime-video",
+      "name": "Prime Video",
+      "company": "Amazon",
+      "kind": "on-demand",
+      "official": "https://www.amazon.com/primevideo",
+      "pricing_url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=G34EUPKVMYFW8N2U",
+      "pricing_source": "Amazon Help: The Amazon Prime Membership Fee",
+      "plans": [
+        {"name": "Prime Video (standalone)", "monthly": 8.99, "note": "Video only, with ads"},
+        {"name": "Amazon Prime", "monthly": 14.99, "note": "$139/year; includes Prime Video with ads plus shipping"},
+        {"name": "Prime Video Ultra add-on", "monthly": 4.99, "note": "Removes ads; added on top of Prime"}
+      ],
+      "extras": "Prime Video Channels let you add other services (for example Paramount+ or HBO Max) inside the Prime Video app.",
+      "cheapest": 8.99,
+      "adfree": 19.98,
+      "four_k": "Included on many titles",
+      "live_sports": "Thursday Night Football and NBA games are streamed on Prime Video.",
+      "kids": "Kids profiles and a family catalog, smaller than Disney+.",
+      "locals": "No local channels.",
+      "trial": "Amazon usually offers a Prime free trial to new members.",
+      "best_for": ["Households that already pay for Amazon Prime", "Thursday Night Football"],
+      "not_for": ["People who want ad-free viewing without paying for Prime"],
+      "answer": "If you already have Amazon Prime ($14.99 a month or $139 a year), Prime Video is included with ads. Removing ads costs $4.99 a month more. Video-only Prime Video is $8.99.",
+      "detail": [
+        "Prime Video comes with an Amazon Prime membership. Ads are on by default; the Ultra add-on removes them for $4.99 a month, up from $2.99 before 2026.",
+        "Live sports include Thursday Night Football and a package of NBA games.",
+        "The ad-free price listed in our tables ($19.98) is Prime plus Ultra."
+      ]
+    },
+    {
+      "slug": "apple-tv",
+      "name": "Apple TV",
+      "company": "Apple",
+      "kind": "on-demand",
+      "official": "https://www.apple.com/apple-tv/",
+      "pricing_url": "https://www.apple.com/apple-tv/",
+      "pricing_source": "Apple TV subscription page",
+      "plans": [
+        {"name": "Apple TV", "monthly": 14.99, "note": "$119/year; no ads"},
+        {"name": "Apple One Individual", "monthly": 21.95, "note": "Starting price; bundles Apple TV with other Apple services"}
+      ],
+      "extras": "Free trial is 7 days, or 3 months with a qualifying new Apple device, per Apple's page.",
+      "cheapest": 14.99,
+      "adfree": 14.99,
+      "four_k": "Included",
+      "live_sports": "Apple announced that all MLS matches are included in the Apple TV subscription starting in 2026, and that it holds US Formula 1 rights from 2026.",
+      "kids": "A small set of family originals.",
+      "locals": "No local channels.",
+      "trial": "7 days (3 months with a new Apple device).",
+      "best_for": ["High-quality originals without ads", "MLS and Formula 1 fans"],
+      "not_for": ["People who want a big back catalog of licensed movies and shows"],
+      "answer": "Apple TV (the service formerly called Apple TV+) costs $14.99 a month or $119 a year, with no ads and 4K included. It is a small, originals-only catalog.",
+      "detail": [
+        "Apple raised the price from $12.99 to $14.99 a month on August 28, 2026. The annual plan rose from $99 to $119.",
+        "Every subscription is ad-free and includes 4K HDR. The library is almost entirely Apple originals.",
+        "Apple One bundles Apple TV with other Apple services and can be cheaper if you pay for iCloud or Apple Music anyway."
+      ]
+    },
+    {
+      "slug": "youtube-tv",
+      "name": "YouTube TV",
+      "company": "Google",
+      "kind": "live",
+      "official": "https://tv.youtube.com/",
+      "pricing_url": "https://tv.youtube.com/welcome/",
+      "pricing_source": "YouTube TV welcome page",
+      "plans": [
+        {"name": "Base plan", "monthly": 82.99, "note": "100+ channels incl. ABC, CBS, FOX, NBC, ESPN"},
+        {"name": "Sports + News plan", "monthly": 71.99, "note": "Intro offer shown at $49.99 for 5 months"},
+        {"name": "Sports plan", "monthly": 64.99, "note": "Genre plan"}
+      ],
+      "extras": "NFL Sunday Ticket is sold as an add-on. Unlimited DVR storage is included.",
+      "cheapest": 64.99,
+      "adfree": null,
+      "four_k": "With the 4K Plus add-on",
+      "live_sports": "Broadcast networks plus ESPN, FS1 and other sports channels; NFL Sunday Ticket add-on.",
+      "kids": "Kids channels included in the base plan.",
+      "locals": "ABC, CBS, FOX and NBC in most markets.",
+      "trial": "The welcome page showed a 21-day trial on November 9, 2026; offers change.",
+      "best_for": ["A full cable replacement with local channels", "Unlimited DVR"],
+      "not_for": ["Tight budgets"],
+      "answer": "YouTube TV's base plan is $82.99 a month for 100+ live channels, including local ABC, CBS, FOX and NBC in most markets, with unlimited DVR. Cheaper genre plans start at $64.99.",
+      "detail": [
+        "The base plan carries broadcast networks, ESPN and most major cable channels. DVR storage has no limit.",
+        "YouTube TV now sells smaller genre plans, such as Sports at $64.99 and Sports + News at $71.99.",
+        "It is the only way to get NFL Sunday Ticket as an add-on to a live TV service."
+      ]
+    },
+    {
+      "slug": "sling-tv",
+      "name": "Sling TV",
+      "company": "DISH / EchoStar",
+      "kind": "live",
+      "official": "https://www.sling.com/",
+      "pricing_url": "https://www.sling.com/",
+      "pricing_source": "Sling TV home page plan list",
+      "plans": [
+        {"name": "Select", "monthly": 19.99, "note": "Smaller sports and news lineup"},
+        {"name": "Essentials", "monthly": 19.99, "note": "Smaller entertainment lineup"},
+        {"name": "Orange", "monthly": 45.99, "note": "Includes ESPN channels"},
+        {"name": "Blue", "monthly": 45.99, "note": "More channels; some locals in select markets"},
+        {"name": "Orange & Blue", "monthly": 60.99, "note": "Both base plans"}
+      ],
+      "extras": "Add-on packs for sports, news and premium channels are sold separately.",
+      "cheapest": 19.99,
+      "adfree": null,
+      "four_k": "No",
+      "live_sports": "ESPN channels on Orange; NFL Network and regional sports on Blue in some markets.",
+      "kids": "Kids channels vary by plan and add-on.",
+      "locals": "Limited. A few markets get FOX and NBC on Blue; most people pair Sling with an antenna.",
+      "trial": "Offers vary.",
+      "best_for": ["The cheapest way to get ESPN and cable news", "People with an antenna for local channels"],
+      "not_for": ["Anyone who needs every local channel without an antenna"],
+      "answer": "Sling TV is the lowest-cost live TV service with big cable networks: Orange or Blue is $45.99 a month, both together $60.99, and smaller Select and Essentials plans are $19.99.",
+      "detail": [
+        "Sling Orange includes ESPN channels. Sling Blue has a larger lineup and some local channels in select markets.",
+        "The $19.99 Select and Essentials plans are pared-down lineups for people who want only a few channels.",
+        "Sling carries few local stations, so it works best with an over-the-air antenna."
+      ]
+    },
+    {
+      "slug": "fubo",
+      "name": "Fubo",
+      "company": "Fubo (majority owned by Disney)",
+      "kind": "live",
+      "official": "https://www.fubo.tv/",
+      "pricing_url": "https://www.fubo.tv/welcome",
+      "pricing_source": "Fubo welcome page",
+      "plans": [
+        {"name": "Pro", "monthly": 88.99, "note": "First month shown at $63.99"},
+        {"name": "Elite", "monthly": 98.99, "note": "First month shown at $68.99"},
+        {"name": "Latino", "monthly": 19.99, "note": "Spanish-language plan"}
+      ],
+      "extras": "Regional sports networks are included in some markets.",
+      "cheapest": 19.99,
+      "adfree": null,
+      "four_k": "Select live sports in 4K",
+      "live_sports": "Sports-first lineup with broadcast networks, ESPN, and regional sports networks in some markets.",
+      "kids": "Kids channels in Pro and Elite.",
+      "locals": "Broadcast networks in most markets.",
+      "trial": "The welcome page showed a 5-day trial on November 9, 2026.",
+      "best_for": ["Sports fans who want regional sports networks", "Soccer and international sports"],
+      "not_for": ["People who mainly watch entertainment channels"],
+      "answer": "Fubo is the sports-focused live TV service. Pro costs $88.99 a month and Elite $98.99, with first-month discounts. A Spanish-language Latino plan is $19.99.",
+      "detail": [
+        "Fubo builds its plans around sports, including regional sports networks in some markets, which many rivals do not carry.",
+        "Pro is the main plan. Elite adds more channels.",
+        "Disney combined Hulu + Live TV with Fubo in 2025, but the two are still sold as separate services."
+      ]
+    },
+    {
+      "slug": "philo",
+      "name": "Philo",
+      "company": "Philo, Inc.",
+      "kind": "live",
+      "official": "https://www.philo.com/",
+      "pricing_url": "https://www.philo.com/",
+      "pricing_source": "Philo sign-up page",
+      "plans": [
+        {"name": "Essential", "monthly": 25.00, "note": "70+ live channels"},
+        {"name": "Bundle+", "monthly": 33.00, "note": "Essential channels plus bundled extras"}
+      ],
+      "extras": "",
+      "cheapest": 25.00,
+      "adfree": null,
+      "four_k": "No",
+      "live_sports": "No sports networks and no ESPN.",
+      "kids": "Nickelodeon and other family entertainment channels.",
+      "locals": "No local channels.",
+      "trial": "7 days, per Philo's sign-up page.",
+      "best_for": ["Cable entertainment channels (reality, lifestyle, AMC, Hallmark) at a low price"],
+      "not_for": ["Sports, local news or broadcast networks"],
+      "answer": "Philo is the cheapest live TV service for entertainment channels: $25 a month for 70+ channels. It has no sports networks and no local channels.",
+      "detail": [
+        "Philo focuses on entertainment and lifestyle cable networks and leaves out sports and news channels to keep its price low.",
+        "Bundle+ is $33 a month and adds extra services on top of the Essential lineup.",
+        "Pair Philo with an antenna and a sports service if you need those."
+      ]
+    }
+  ]
+}
