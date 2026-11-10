@@ -33,8 +33,9 @@ a:hover{text-decoration-thickness:2px}
 .nav a:hover,.nav a[aria-current="page"]{background:var(--accent-soft)}
 #theme-toggle{background:none;border:1px solid var(--line);color:var(--text);border-radius:8px;padding:6px 10px;cursor:pointer;font:inherit;font-size:.85rem}
 @media (max-width:720px){
-  .head-row{padding:8px 0}
-  .nav{margin-left:0;width:100%;overflow-x:auto;flex-wrap:nowrap}
+  .head-row{padding:8px 16px;gap:8px}
+  #theme-toggle{margin-left:auto}
+  .nav{order:3;margin-left:0;width:100%;overflow-x:auto;flex-wrap:nowrap}
   .nav a{white-space:nowrap}
 }
 

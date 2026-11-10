@@ -668,6 +668,17 @@ def build_meta_files():
     (ROOT / ".nojekyll").write_text("", encoding="utf-8")
     fav = ROOT / "assets" / "img" / "favicon.svg"
     fav.write_text('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#5b3df5"/><path d="M24 18l24 14-24 14z" fill="#fff"/></svg>\n', encoding="utf-8")
+    ico = ROOT / "favicon.ico"
+    if not ico.exists():
+        try:
+            from PIL import Image, ImageDraw
+            im = Image.new("RGBA", (64, 64), (0, 0, 0, 0))
+            d = ImageDraw.Draw(im)
+            d.rounded_rectangle([0, 0, 63, 63], radius=14, fill=(91, 61, 245))
+            d.polygon([(24, 18), (48, 32), (24, 46)], fill=(255, 255, 255))
+            im.save(ico, sizes=[(16, 16), (32, 32), (48, 48)])
+        except ImportError:
+            pass
     svc_lines = "\n".join(f"- [{s['name']} review]({BASE}/reviews/{s['slug']}/): {s['answer']}" for s in SERVICES)
     llms = f"""# {SITE}
 
